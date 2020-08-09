@@ -9,12 +9,12 @@ class Results extends Component {
     };
 
     componentDidMount() {
-        this.searchPeople("Pete");
+        this.searchPeople("results");
     };
 
     searchPeople = (query) => {
         API.search(query)
-            .then(res => this.setState({ result: res.data }))
+            .then(res => this.setState({ result: res.data }).filter({ result: name }))
             .catch(err => console.log(err));
     };
 
