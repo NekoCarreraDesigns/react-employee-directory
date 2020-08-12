@@ -17,14 +17,16 @@
 }
 
 .searchBtn {
-  margin-top: 10px;
-  padding: 5px;
+  display: flex;
+  margin-top: 15px;
+  font-size: 20px;
   border-radius: 5px;
   width: 100px;
   height: 30px;
+  
   }
 
-  .searchBtn:hover {
+.searchBtn:hover {
     background-color: rebeccapurple;
     color: peru;
   }

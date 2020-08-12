@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import Container from "./Container";
+Import Col from "./Col";
+import Row from "./Row";
+import EmployeeDetails from "./EmployeeDetails"
 import API from "../utils/API"
 
 
@@ -14,7 +18,7 @@ class Results extends Component {
 
     searchPeople = (query) => {
         API.search(query)
-            .then(res => this.setState({ result: res.data }).filter({ result: name }))
+            .then(res => this.setState({ result: res.data }))
             .catch(err => console.log(err));
     };
 
@@ -36,7 +40,7 @@ class Results extends Component {
                 Employee Directory
                 <header className="App-header">
                     <input className="search-bar" type="text" placeholder="Search Employee" />
-                    <button className="searchBtn" type="submit">Search</button>
+                    <div className="Btn"><button className="searchBtn" type="submit">Search</button></div>
                 </header>
             </div>
         )

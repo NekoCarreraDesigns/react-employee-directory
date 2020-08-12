@@ -10,4 +10,4 @@ function Col(props) {
     );
 };
 
-export default Col;
+export default Cols;

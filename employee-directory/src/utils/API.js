@@ -7,7 +7,7 @@ const result = "&result=10";
 
 export default {
     search: function (query) {
-        return axios.get(query + BASEURL + APIKEY + result);
+        return axios.get(BASEURL + APIKEY + result);
     }
 
 
