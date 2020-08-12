@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Container from "./Container";
-Import Col from "./Col";
+import Col from "./Col";
 import Row from "./Row";
 import EmployeeDetails from "./EmployeeDetails"
 import API from "../utils/API"
@@ -36,13 +36,19 @@ class Results extends Component {
 
     render() {
         return (
-            <div className="App">
-                Employee Directory
-                <header className="App-header">
-                    <input className="search-bar" type="text" placeholder="Search Employee" />
-                    <div className="Btn"><button className="searchBtn" type="submit">Search</button></div>
-                </header>
-            </div>
+            <Container>
+                <Row>
+                    <Col size="lg-12">
+                        <EmployeeDetails
+                            image={this.state.result.image}
+                            src={this.state.result.image}
+                            name={this.state.result.name}
+                            details={this.state.result.details}
+
+                        />
+                    </Col>
+                </Row>
+            </Container>
         )
     }
 

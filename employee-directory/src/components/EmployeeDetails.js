@@ -4,7 +4,7 @@ function EmployeeDetails(props) {
     return (
         <div>
             <div className="employee-div">
-                <img alt={props.image} className="img-fluid" src={props.src} style={{ margin: "auto" }} />
+                <img image={props.image} alt={props.image} className="img-fluid" src={props.src} style={{ margin: "auto" }} />
             </div>
             <div className="text-center">
                 <p>{props.name}</p>
