@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Container from "./Container";
-import Table from "./Table";
-import Headings from "./Headings"
-import API from "../utils/API"
+import Search from "../Search/Search"
+import Table from "./Table/Table";
+import Headings from "./Headings/Headings"
+import API from "../../utils/API"
 
 
 class Results extends Component {
