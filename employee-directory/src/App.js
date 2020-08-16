@@ -3,7 +3,6 @@ import './App.css';
 import Results from "./components/Results";
 import Header from "./components/Header";
 import Container from './components/Container';
-import Col from "./components/Col";
 import Row from "./components/Row"
 
 
@@ -13,9 +12,9 @@ function App() {
       <Header />
       <Container>
         <Row>
-          <Col>
-            <Results />
-          </Col>
+
+          <Results />
+
         </Row>
       </Container>
     </>

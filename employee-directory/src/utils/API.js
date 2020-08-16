@@ -6,7 +6,7 @@ const result = "&result=10";
 
 
 export default {
-    search: function (query) {
+    getUsers: function (query) {
         return axios.get(BASEURL + APIKEY + result);
     }
 
