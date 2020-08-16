@@ -44,4 +44,4 @@ function Table({ users }) {
 }
 export default Table;
 
-}
+
