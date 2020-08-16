@@ -1,7 +1,7 @@
 import axios from "axios"
 const BASEURL = "https://randomuser.me/api/";
 const APIKEY = "?key=DUM1-N5W4-JCP4-QGP9";
-const result = "&result=10";
+const result = "&results=50";
 
 
 

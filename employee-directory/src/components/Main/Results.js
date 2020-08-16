@@ -65,7 +65,7 @@ class Results extends Component {
 
         let sortedUsers;
 
-        if (hname == "name") {
+        if (hname === "name") {
             sortedUsers = users.sort((a, b) => {
                 if (a.name.first < b.name.first) {
                     return -1;
