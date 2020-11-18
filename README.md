@@ -4,7 +4,7 @@
 
 ### URL: https://nekocarreradesigns.github.io/react-employee-directory/
 
-![employee-directory](public/assets/EmployeeDirectory.gif)
+![employee-directory](/assets/EmployeeDirectory.gif)
 
 ## Description
 
@@ -20,7 +20,7 @@ Employee directory that lets you filter by ascending and descending categories a
 
 ## Installation
 
-` fork repo, npm i, npm start, go to local host 3000 in the browser `
+`fork repo, npm i, npm start, go to local host 3000 in the browser`
 
 ## Usage
 
