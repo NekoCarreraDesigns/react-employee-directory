@@ -4,7 +4,7 @@
 
 ### URL: https://nekocarreradesigns.github.io/react-employee-directory/
 
-![employee-directory](/assets/EmployeeDirectory.gif)
+![employee-directory](assets/EmployeeDirectory.gif)
 
 ## Description
 
